@@ -2,7 +2,7 @@
 
 Looking through the images, I noticed that this image had been strip cut.
 
-![Initial cuts](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/inital%20pieces.JPG)
+![Initial cuts](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/inital%20pieces.jpg)
 
 After analyzing the images, i realised that the images were relevant to its neighbouring images of similar titles
 The format of the image's alignment is xxx.yyy where x is the horizontal index and y is the vertical index
