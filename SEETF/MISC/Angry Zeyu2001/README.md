@@ -11,11 +11,11 @@ The format of the image's alignment is xxx.yyy where x is the horizontal index a
 
 I decided to join the image bits in vertical strips first to confirm my hypothesis.
 
-![Vertical Strips](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/strips.JPG)
+![Vertical Strips](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/strips.jpg)
 
 The vertical strips seem to be doing an incremental vertical shift upwards after the second strip.
 
-![Combined Vertical Images](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/Capture.JPG)
+![Combined Vertical Images](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/Capture.jpg)
 
 I edited my code to include a vertical shift downwards after the second vertical strip.
 
