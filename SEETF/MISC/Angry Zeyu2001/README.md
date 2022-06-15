@@ -6,3 +6,4 @@ The format of the image's alignment is xxx.yyy where x is the horizontal index a
 
 I decided to join the image in vertical strips first to confirm my hypothesis.
 
+![Combined Vertical Images](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Capture.JPG)
