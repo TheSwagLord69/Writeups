@@ -16,4 +16,4 @@ There was only 1 match for `[A-Z]{5}[0-9]{5}[A-Z]{6}`
 
 ## Flag
 
-> SEE{RGSXG13841KLWIUO}
+> **SEE{RGSXG13841KLWIUO}**
