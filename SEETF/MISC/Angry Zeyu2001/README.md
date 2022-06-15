@@ -29,7 +29,7 @@ The image was not perfect, but the flag could still be seen.
 
 ## Code
 
-```
+```python
 from PIL import Image
 import os
 import re
