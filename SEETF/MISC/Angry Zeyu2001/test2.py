@@ -24,7 +24,7 @@ ctr = -1
 
 #Combine Images Vertically
 z=0
-for i in range(52):
+for i in range(54):
     x = z
     if x > 0:
         x=z+1
@@ -38,6 +38,7 @@ for i in range(52):
     
     #im_v = cv2.vconcat([bitmaps[x+0],bitmaps[x+1],bitmaps[x+2],bitmaps[x+3],bitmaps[x+4],bitmaps[x+5],bitmaps[x+6],bitmaps[x+7],bitmaps[x+8],bitmaps[x+9],bitmaps[x+10],bitmaps[x+11],bitmaps[x+12],bitmaps[x+13],bitmaps[x+14],bitmaps[x+15],bitmaps[x+16],bitmaps[x+17],bitmaps[x+18],bitmaps[x+19],bitmaps[x+20],bitmaps[x+21],bitmaps[x+22]])
     im_v = cv2.vconcat(mylist)
+    cv2.imwrite('test'+str(i)+'.jpg', im_v)
     z = z+22
     
     vert_list.append(im_v)
@@ -45,3 +46,15 @@ for i in range(52):
 #Combine Images Horizontally
 im_h = cv2.hconcat(vert_list)
 cv2.imwrite('flag.jpg', im_h)
+    
+
+'''
+#0 23 45 67 89 111
+x=111
+im_v = cv2.vconcat([bitmaps[x+0],bitmaps[x+1],bitmaps[x+2],bitmaps[x+3],bitmaps[x+4],bitmaps[x+5],bitmaps[x+6],bitmaps[x+7],bitmaps[x+8],bitmaps[x+9],bitmaps[x+10],bitmaps[x+11],bitmaps[x+12],bitmaps[x+13],bitmaps[x+14],bitmaps[x+15],bitmaps[x+16],bitmaps[x+17],bitmaps[x+18],bitmaps[x+19],bitmaps[x+20],bitmaps[x+21],bitmaps[x+22]])
+cv2.imwrite('test2.jpg', im_v)
+'''
+
+'''
+the format is xxx.yyy where x is the horizontal and y is the vertical alignment
+'''
