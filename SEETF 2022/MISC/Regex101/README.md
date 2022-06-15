@@ -6,11 +6,11 @@ The hint given is that the real flag consists of 5 uppercase letters, followed b
 
 Also the name of the challenge is a commonly used online Regex tool.
 
-![Given](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Regex101/Images/flags.JPG)
+![Given](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF%202022/MISC/Regex101/Images/flags.JPG)
 
 Solvable by regular expression, I used an [online Regex tool](https://regex101.com/)
 
-![Regex 101](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Regex101/Images/regex101.JPG)
+![Regex 101](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF%202022/MISC/Regex101/Images/regex101.JPG)
 
 There was only 1 match for `[A-Z]{5}[0-9]{5}[A-Z]{6}`
 
