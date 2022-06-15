@@ -2,24 +2,24 @@
 
 Looking through the images, I noticed that this image had been strip cut.
 
-![Initial cuts](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/inital%20pieces.jpg)
+![Initial cuts](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF%202022/MISC/Angry%20Zeyu2001/Images/inital%20pieces.jpg)
 
 After analyzing the images, i realised that the images were relevant to its neighbouring images of similar titles.
 The format of the image's alignment is xxx.yyy where x is the horizontal index and y is the vertical index.
 
-![Analyzing the cuts](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/similar.jpg)
+![Analyzing the cuts](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF%202022/MISC/Angry%20Zeyu2001/Images/similar.jpg)
 
 I decided to join the image bits in vertical strips first to confirm my hypothesis.
 
-![Vertical Strips](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/strips.jpg)
+![Vertical Strips](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF%202022/MISC/Angry%20Zeyu2001/Images/strips.jpg)
 
 The vertical strips seem to be doing an incremental vertical shift upwards after the second strip.
 
-![Combined Vertical Images](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/Capture.jpg)
+![Combined Vertical Images](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF%202022/MISC/Angry%20Zeyu2001/Images/Capture.jpg)
 
 I edited my code to include a vertical shift downwards after the second vertical strip, and combined the images horizontally.
 
-![Flag Image](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/flag.jpg)
+![Flag Image](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF%202022/MISC/Angry%20Zeyu2001/Images/flag.jpg)
 
 The image was not perfect, but the flag could still be seen.
 
