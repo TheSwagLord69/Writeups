@@ -4,8 +4,8 @@ Looking through the images, I noticed that this image had been strip cut.
 
 ![Initial cuts](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/inital%20pieces.jpg)
 
-After analyzing the images, i realised that the images were relevant to its neighbouring images of similar titles
-The format of the image's alignment is xxx.yyy where x is the horizontal index and y is the vertical index
+After analyzing the images, i realised that the images were relevant to its neighbouring images of similar titles.
+The format of the image's alignment is xxx.yyy where x is the horizontal index and y is the vertical index.
 
 ![Analyzing the cuts](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/similar.jpg)
 
@@ -17,7 +17,7 @@ The vertical strips seem to be doing an incremental vertical shift upwards after
 
 ![Combined Vertical Images](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/Capture.jpg)
 
-I edited my code to include a vertical shift downwards after the second vertical strip.
+I edited my code to include a vertical shift downwards after the second vertical strip, and combined the images horizontally.
 
 ![Flag Image](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/flag.jpg)
 
