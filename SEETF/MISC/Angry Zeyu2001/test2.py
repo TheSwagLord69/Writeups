@@ -45,6 +45,8 @@ for i in range(54):
     
 #Combine Images Horizontally
 im_h = cv2.hconcat(vert_list)
+
+#Output Image
 cv2.imwrite('flag.jpg', im_h)
     
 
