@@ -21,6 +21,8 @@ I edited my code to include a vertical shift downwards after the second vertical
 
 ![Flag Image](https://github.com/TheSwagLord69/Writeups/blob/main/SEETF/MISC/Angry%20Zeyu2001/Images/flag.jpg)
 
+The image was not perfect, but the flag could still be seen.
+
 ## Flag
 
 > SEE{boss_aint_too_happy_bout_me_9379c958d872435}
